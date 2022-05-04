@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@300&family=Modak&family=Nunito:wght@200&family=Poppins:wght@300&family=Praise&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+button{
+    cursor: pointer;
+}
+
+
+body {
+    background-color: #222336;
+}
+
+header h1, header h2 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+
+header h2{
+    color: red;
+}
+
+main .box1, main .box2, main .box3, main .box4{
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 50%;
+    min-width: 350px;
+}
+
+main .box1 button, main .box2 button, main .box2 input, main .box3 button,
+main .box3 input, main .box4 button, main .box4 input{
+    width: 250px;
+    height: 50px;
+    text-transform: uppercase;
+    margin: 10px;
+    font-weight:bold;
+    border-radius: 20px;
+    font-size:20px;
+}
+
+
+main .box1 button, main .box3 button, main .box4 button{
+    background-color: rgb(215, 140, 0);
+    color: white;
+}
+
+main .box2 button{
+    background-color:rgb(222, 0, 0);
+    color: white;
+}
+
+
+main .box1 button:hover,
+main .box3 button:hover,
+main .box4 button:hover {
+    background-color:orange;
+    text-decoration: underline;
+}
+
+main .box2 button:hover {
+    background-color:rgb(161, 0, 0);
+    text-decoration: underline;
+}
+
+
+
+main .box2 input, main .box3 input, main .box4 input{
+    padding: 10px;
+    font-size:17px;
+}
+
+
+
+
+main .box5, main .box6, main .box7, main .box8, main .box9{
+    text-align: center;
+    color: white;
+    font-size:25px;
+    margin:20px;
+}
+
+
+@media screen and (max-width:768px) {
+    .box5 span, .box6 span, .box7 span, .box8 span, .box9 span{
+        font-size:12px;
+    }
+}
